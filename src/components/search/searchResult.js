@@ -42,6 +42,10 @@ export default SearchResult;
 
 const Label = styled.p`
   font-size: ${props => props.theme.fontSize.font_body_small};
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 `;
 
 const ResultLabel = styled.p`
